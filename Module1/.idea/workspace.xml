@@ -2,72 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2 HoanThanhKhoaHoaVoiKanban/Btvietkanban.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 HoanThanhKhoaHoaVoiKanban/DieuTra5Whys.ods" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 HoanThanhKhoaHoaVoiKanban/DieuTra5Whys.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 HoanThanhKhoaHoaVoiKanban/btChamDiemSMART.ods" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 HoanThanhKhoaHoaVoiKanban/btMaTran.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 NhapMonLapTrinh/bài tập/ThuattoandoF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 NhapMonLapTrinh/bài tập/batdau.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapChuyenDoiTiente.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapChuyenDoiTiente.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapMoTaThuatToanCoCauTrucDK.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapMoTaThuatToanCoCauTrucDK.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapTimgtlnTrong3so.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapTimgtlnTrong3so.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/BaiTapTinhDiemTrungBinh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_CHuyenDoiTienTe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_TimGTLNTrong3so (cs).drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_TimGTLNTrong3so.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_Timgtlntrong1day.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_Timsolntrong3so.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_XepHangSinhVien.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Flowchart_XepHangSinhVien.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/BaiTap/Pseudo-code_TimGTLNtrong3so.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/LyThuyetCorellNode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/ThucHanh/BaithucHanh_demso.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/ThucHanh/LuuDoDemSo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 MaGia&amp;LuuDo/ThucHanh/MaGiaDemSo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Git&amp;HTML/BaiTap/BaiTap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Git&amp;HTML/Image/tuoitho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Git&amp;HTML/ThucHanh/ThucHanh1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/TaoFormTimKiem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/ThucHanhTaoFormcoban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/sinpleform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/BTtaobangTKB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/BTtaoformcoban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/BTtaogiaodienformdangki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/TaoBangCoBan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7 TongquanveJavascript/Thuchanh/THJavascript.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git&amp;HTML/Image/tuoitho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git&amp;HTML/ThucHanh/ThucHanh1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoanThanhKhoaHoaVoiKanban/Btvietkanban.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoanThanhKhoaHoaVoiKanban/DieuTra5Whys.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoanThanhKhoaHoaVoiKanban/DieuTra5Whys.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoanThanhKhoaHoaVoiKanban/btChamDiemSMART.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoanThanhKhoaHoaVoiKanban/btMaTran.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapChuyenDoiTiente.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapChuyenDoiTiente.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapMoTaThuatToanCoCauTrucDK.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapMoTaThuatToanCoCauTrucDK.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapTimgtlnTrong3so.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapTimgtlnTrong3so.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/BaiTapTinhDiemTrungBinh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_CHuyenDoiTienTe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_TimGTLNTrong3so (cs).drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_TimGTLNTrong3so.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_Timgtlntrong1day.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_Timsolntrong3so.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_XepHangSinhVien.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Flowchart_XepHangSinhVien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/BaiTap/Pseudo-code_TimGTLNtrong3so.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/LyThuyetCorellNode.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/ThucHanh/BaithucHanh_demso.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/ThucHanh/LuuDoDemSo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaGia&amp;LuuDo/ThucHanh/MaGiaDemSo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinh/bài tập/ThuattoandoF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinh/bài tập/batdau.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/TaoFormTimKiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/TaoFormTimKiem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/ThucHanhTaoFormcoban.html" beforeDir="false" afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/ThucHanh/ThucHanhTaoFormcoban.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Module1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,7 +64,8 @@
       <workItem from="1587962595786" duration="686000" />
       <workItem from="1587963366258" duration="1846000" />
       <workItem from="1588574661117" duration="4715000" />
-      <workItem from="1588641687922" duration="5741000" />
+      <workItem from="1588641687922" duration="17389000" />
+      <workItem from="1588748351354" duration="3037000" />
     </task>
     <servers />
   </component>
@@ -128,5 +80,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1588575650057" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1588672177573">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588672177573" />
   </component>
 </project>
