@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <input type="number" id="sothu1">
+    <input type="number" id="sothu2">
+    <br>
+    <input type="button" value= "Addition(+)" onclick="tinhcong()">
+    <input type="button" value= "Subtraction(-)" onclick="tinhtru()">
+    <input type="button" value= "X" onclick="tinhnhan()">
+    <input type="button" value= "Division(/)" onclick="tinhchia()">
+</form>
+<p id="hienthi"></p>
+
+<script>
+    function tinhcong() {
+        let no1=document.getElementById("sothu1").value;
+        let no2=document.getElementById("sothu2").value;
+        no1=parseInt(no1);
+        no2=parseInt(no2);
+        let ketqua = no1 + no2;
+        document.getElementById("hienthi").innerHTML = ketqua;
+    }
+    function tinhchia() {
+        let firstnumber=document.getElementById("sothu1").value*1;
+        let secondnumber=document.getElementById("sothu2").value*1;
+        // firstnumber = parseInt(firstnumber);
+        // secondnumber = parseInt(secondnumber);
+        let ketqua = firstnumber / secondnumber;
+        document.getElementById("hienthi").innerHTML = ketqua;
+    }
+    function tinhnhan() {
+        let no1 = parseInt(document.getElementById("sothu1").value);
+        let no2 = parseInt(document.getElementById("sothu2").value);
+        let ketqua = no1 * no2;
+        document.getElementById("hienthi").innerHTML = ketqua;
+    }
+    function tinhtru() {
+        let firstNo = parseInt(document.getElementById("sothu1").value);
+        let secondNo = parseInt(document.getElementById("sothu2").value);
+        let ketqua = firstNo - secondNo;
+        document.getElementById("hienthi").innerHTML = ketqua;
+    }
+</script>
+</body>
+</html>

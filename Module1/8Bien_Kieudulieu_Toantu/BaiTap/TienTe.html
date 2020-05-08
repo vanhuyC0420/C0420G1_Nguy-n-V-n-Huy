@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Curency</th>
+            <th>To Curency</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" id="sotien">
+            </td>
+            <td>
+                <select id="fromC">
+                    <option value = "VND">VND</option>
+                    <option value = "USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="toC">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+            <td>
+                <input type="button" onclick="doitien()" value="Convert">
+            </td>
+        </tr>
+    </table>
+</form>
+<p id = "Hiển thị"></p>
+<script>
+    function doitien() {
+        let ketqua;
+        let sltien = parseInt(document.getElementById("sotien").value);
+        let dauvao = document.getElementById("fromC").value;
+        let daura = document.getElementById("toC").value;
+        if (dauvao=="VND"){
+            if (daura=="USD"){
+                ketqua = sltien / 23000;
+            }
+            else if(daura=="VND") {
+                ketqua = document.write("Bị chi không mà đổi nửa");
+               // ketqua = sltien;
+            }
+        }
+        if (dauvao=="USD"){
+            if (daura=="VND") {
+                ketqua = sltien * 23000;
+            }
+            else if(daura="USD") {
+                ketqua = document.write("Cần gì đổi nửa hè");
+            }
+        }
+       // document.write("Result: "+ketqua);
+        document.getElementById("Hiển thị").innerHTML = ketqua;
+    }
+</script>
+</body>
+</html>
