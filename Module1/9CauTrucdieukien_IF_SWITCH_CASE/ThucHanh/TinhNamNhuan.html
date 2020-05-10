@@ -5,6 +5,37 @@
     <title>Kiểm tra năm nhuận!</title>
 </head>
 <body>
+<table>
+    <tr>
+        <th> Nhập năm</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="year"></td>
+        <td><input type="button" onclick="leapYear()" value="Kiểm tra năm nhuận"></td>
+    </tr>
+</table>
+<p id="Kết quả"></p>
+<script>
+    function leapYear() {
+        let year = document.getElementById('year').value * 1;
+        let nhuan = year%4==0;
+        let nhuan100 = year%100==0;
+        let  nhuan400 = year%400==0;
+        if (nhuan) {
+            if (nhuan100) {
+                if (nhuan400)
+                    document.getElementById("Kết quả").innerHTML = (year + " là năm nhuận");
+                else
+                    document.getElementById("Kết quả").innerHTML = (year + " không phải là năm nhuận");
+                }
+            else {
+            document.getElementById("Kết quả").innerHTML = (year + "  là năm nhuận");
+            }
+        }
+        else
+            document.getElementById("Kết quả").innerHTML = (year + "  không phải là năm nhuận");
 
+    }
+</script>
 </body>
 </html>
