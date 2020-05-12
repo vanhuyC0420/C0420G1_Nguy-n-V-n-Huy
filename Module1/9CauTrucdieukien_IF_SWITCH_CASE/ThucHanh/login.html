@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login với câu lệnh IF/ELSE</title>
+</head>
+<body>
+<script>
+    var userName = prompt("Who's  there?",'');
+    var pas = prompt("Password?",'');
+    if (userName == "Admin"){
+        // alert('Vui lòng nhập mặt Khẩu');
+        if (pas == "The Master")
+            alert("Wellcome!");
+        else if (pas == null)
+            alert('Calceled');
+        else
+            alert("Wrong pasword");
+    }
+    else if (userName == null){
+        alert('Canceled');
+    }
+    else
+        alert("I don't know ");
+</script>
+</body>
+</html>

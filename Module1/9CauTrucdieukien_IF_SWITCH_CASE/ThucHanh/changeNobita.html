@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Di chuyển nhân vật</title>
+</head>
+<body onload="doRealdy()">
+<img src="../Image/nobita.png" id="nobita" style="position: absolute; left: 0; top: 0;" height="250" width="220"/>
+</body>
+<script>
+    function upArrowPressed() {
+        let  element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    }
+    function leftArrowPressed() {
+        var element = document.getElementById('nobita');
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    }
+    function rightArrowPressed() {
+        let element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+    }
+    function downArrowPressed() {
+        var element = document.getElementById('nobita');
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    }
+    function moveSelectino(evt) {
+        switch (evt.keyCode) {
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+
+        }
+
+    }
+    function doRealdy() {
+        window.addEventListener('keydown',moveSelectino)
+
+    }
+</script>
+</html>

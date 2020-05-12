@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/ex01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/GamePuzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/GoodFastCheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/InnerTextAndInnerHTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/MayTinhDonGian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/Sở Thích Của Bạn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/atiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/btiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/cctiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/ctiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/cat0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/cat3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/cat4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/monkey0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/monkey1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/monkey2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/monkey3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/monkey4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/panda0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/panda1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/panda2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/panda3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/images/panda4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/Đăng ký học viên.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/bodyHealth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Image/ball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Image/ball1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Image/nobita.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/Add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/Employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/TestSwitch_case1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/ball.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/changeNobita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/ThucHanh/testSwitch_case2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/CODEGYM.CC/CodeGym/FriendSource/demo/demo/MayTinhDonGian.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +119,10 @@
       <workItem from="1588900531231" duration="5224000" />
       <workItem from="1588913689753" duration="5407000" />
       <workItem from="1589006342277" duration="3080000" />
-      <workItem from="1589102740330" duration="9555000" />
+      <workItem from="1589102740330" duration="12918000" />
+      <workItem from="1589152778539" duration="2414000" />
+      <workItem from="1589160838761" duration="18512000" />
+      <workItem from="1589229941528" duration="9988000" />
     </task>
     <servers />
   </component>
@@ -97,10 +137,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1588575650057" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1588913643661">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1589190408051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588913643661" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589190408051" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1588846786156">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -165,5 +205,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1588846786195" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589163857317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589163857317" />
   </component>
 </project>

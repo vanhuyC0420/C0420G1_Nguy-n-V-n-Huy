@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ung Dung Chuyen Doi Tien Te</title>
+    <style media="screen">
+        p {
+            margin: auto;
+        }
+        #result {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <table cellspacing="10px">
+        <tr>
+            <td><p>Amount</p></td>
+            <td><p>From Currency</p></td>
+            <td><p>To Currency</p></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="amount" value="1" id="amount"></td>
+            <td><select class="" name="vnd">
+                <option value="vietnam">VND</option>
+            </select></td>
+            <td><select class="" name="usd">
+                <option value="usd">USD</option>
+            </select></td>
+            <td><button type="button" onclick="ShowResult();">Convert</button></td>
+        </tr>
+    </table>
+    <p id="result"></p>
+</form>
+
+<script type="text/javascript">
+    function ShowResult() {
+        let x =  document.getElementById("amount").value;
+        document.getElementById("result").innerHTML = "Result: " + x/23000 + " USD";
+    }
+</script>
+</body>
+</html>
