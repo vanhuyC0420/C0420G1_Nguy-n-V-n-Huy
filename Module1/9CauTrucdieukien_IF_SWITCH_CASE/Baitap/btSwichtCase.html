@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị tháng có bao nhiêu ngày</title>
+</head>
+<body>
+<form>
+    <input type="number" id="sothang">
+    <input type="button"  value="Tính số ngày" onclick="tinhngay()">
+    <p id="Hiển thị"></p>
+</form>
+<script>
+    function tinhngay() {
+        // let a = prompt('Nhập tháng vào: ') * 1.0;
+        let mounth = parseInt(document.getElementById("sothang").value);
+        let result;
+        switch (mounth) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+            // case (5 || 7 || 8 || 10 || 12):
+                result = document.write('Tháng '+mounth+' có 31 ngày');
+                //alert('Có 31 ngày');
+                break;
+            case 2:
+                result = document.write('Tháng ' +mounth+ ' có 28 hoặc 29 ngày');
+                //alert('Có 28 hoặc 29 ngày');
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+            //case (4 || 6 || 9 || 11):
+
+                result = document.write('Tháng '+mounth+ ' có 30 ngày');
+                //alert('Có 30 ngày');
+                break;
+        }
+        document.getElementById("Hiển thị").innerHTML = result;
+    }
+</script>
+</body>
+</html>

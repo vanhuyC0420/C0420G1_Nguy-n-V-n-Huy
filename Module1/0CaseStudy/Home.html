@@ -6,19 +6,19 @@
 </head>
 <body>
     <script>
-        var name;
-        var idCard;
-        var phoneNumber;
-        var birthday;
-        var email;
-        var address;
-        var gender;
-        var typeCustomer;
-        var discount = 10;
-        var rentDays;
-        var typerService;
-        var typeRoom;
-        var totalPay;
+        let name;
+        let idCard;
+        let phoneNumber;
+        let birthday;
+        let email;
+        let address;
+        let gender;
+        let typeCustomer;
+        let discount = 10;
+        let rentDays;
+        let typerService;
+        let typeRoom;
+        let totalPay;
 
         name = prompt("Nhập họ tên");
         idCard = prompt("Nhập số CMND/Căn Cước;");
@@ -27,11 +27,12 @@
         email = prompt("Nhập email: ");
         address = prompt("Nhập địa chỉ: ");
         gender = prompt("Giới tính: ");
-        typeCustomer = prompt("Loại khách hàng: ");
+        typeCustomer = prompt('Loại khách hàng'); //('Diamond','Platinium','Gold','Silver','Member');
         discount = prompt("ĐƯợc giảm giá: ");
         rentDays = prompt("Số ngày thuê: ");
         typerService = prompt("Loại dịch vụ: ");
         typeRoom = prompt("Loại phòng: ");
+        totalPay = 300*rentDays*(1-discount/100);
 
 
        // alert("Tên: " +name+ " Số CMND/Căn cước: " +idCard+ " ngày sinh: " + birthday);
@@ -58,6 +59,8 @@
         document.write("Số ngày thuê: " +rentDays);
         document.write('<br>');
         document.write("Mã giảm giá: " +discount);
+        document.write('<br>')
+        document.write('Tổng tiền: '+totalPay);
         // typeCustomer: Diamond, Platinum, Gold, Silver, Member.
         // typeService: Villa(500$/ngày), House(300$/Ngày), Room(100$/Ngày).
         // typeRoom: Vip, Business, Normal.

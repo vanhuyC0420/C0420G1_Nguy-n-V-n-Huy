@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cộng dãy Fibonaci</title>
+</head>
+<body>
+<script>
+    let number = prompt('Tổng của bao nhiêu số Fibonaci: ')*1.0;
+    let truoc = 0;
+    let sau = 1;
+    let c;
+    let tong=0;
+    for (let i=0;i<number;i++){
+        c=truoc+sau;
+        truoc=sau;
+        sau=c;
+        tong+=c;
+        //alert(tong);
+    }
+    document.write('tổng của' +number+ ' số fibonaci đầu tiên = ' + tong);
+</script>
+</body>
+</html>

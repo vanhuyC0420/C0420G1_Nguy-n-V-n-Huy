@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị Số Nguyên tố</title>
+</head>
+<body>
+<script>
+    let number = prompt('Nhập số lương số nt cần tìm: ');
+    // let number = parseInt(prompt("Nhập số lượng số NT cần tìm: "));
+    let count =0;
+    let N=2;
+    let i;
+    let text="";
+    while (count<number){
+        for(i=2;i<N;i++){
+            if(N%i==0)
+                break;
+        }
+        if(i==N){
+            text = text + N +" ";
+            count++;
+        }
+        N++;
+    }
+    document.write(number+" số nguyên tố cần tìm là: ");
+    document.write(text);
+    // let numbers = prompt('Nhập số cần kiểm tra: ');
+    // if (numbers <2){
+    //     alert(numbers + 'Không phải là số nguyên tố')
+    // }
+    // else if (numbers == 2) {
+    //         alert(numbers + ' là số nguyên tố')
+    //     }
+    // else {
+    //     //if ( numbers > 2){
+    //      // if (numbers%2 != 0) {
+    //         for (let i = 2; i < (numbers - 1); i++) {
+    //             if (numbers % i == 0) {
+    //                 alert(numbers + 'Không phải là số nguyên tố')
+    //             }
+    //             break;
+    //         }
+    //     }
+    //     //alert(numbers + ' là số nguyên tố')
+    // }
+
+
+</script>
+</body>
+</html>
