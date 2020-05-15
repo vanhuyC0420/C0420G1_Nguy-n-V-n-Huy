@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find value of Array</title>
+</head>
+<body>
+<!--Viết một chương trình JavaScript để tìm một giá tri được nhập vào từ -->
+<!--hộp thoại có nằm trong mảng hay không. Nếu có in ra vị trí của phần tử đó.-->
+<script>
+    // Nhập vào 1 giá trị cần tìm
+    let nhap = prompt("Enter a number: ");
+    //Khai báo 1 mảng và khởi tạo giá trị lúc đầu
+    let mang = [2, 4, 6, 7, 10];
+    // Dùng vòng lặp để duyệt toàn bộ mảng đã tạo và kiểm tra xem
+    for (let kt = 0; kt < mang.length; kt ++){
+        if (nhap == mang[kt]){
+            alert('Giá trị ' +mang[kt]+ ' nằm ở phần tử thứ ' +kt);
+        }
+        else{
+            alert(nhap + ' không nằm trong ' + mang);
+            break;
+        }
+    }
+</script>
+</body>
+</html>

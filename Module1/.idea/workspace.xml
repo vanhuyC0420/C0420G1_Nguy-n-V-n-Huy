@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/0CaseStudy/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0CaseStudy/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/dowhilesample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/forLongNhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/testFor1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/testWhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/testWhile2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 VongLap/ThucHanh/totalNum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/BTSoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/BTbangcuuchuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/bt1VongLap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/bt2Nhietdo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/bt3DayFibonaxy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/bt5CongFibonaci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt4FibinaccyChia5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/btSwichtCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/baiTap/bt1NoiPhantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayDaoNguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindMaximum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindValue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayTaoBanCaro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0CaseStudy/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/bodyHealth.html" beforeDir="false" afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/bodyHealth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/yeucau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/demo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/CODEGYM.CC/CodeGym/FriendSource/demo/demo/MayTinhDonGian.html" />
+    <property name="last_opened_file_path" value="F:/CODEGYM.CC/CodeGym/caseStudy1/caseStudy1/Code/demo2.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +99,10 @@
       <workItem from="1589247090495" duration="13747000" />
       <workItem from="1589325395668" duration="3405000" />
       <workItem from="1589334052333" duration="19246000" />
-      <workItem from="1589376482121" duration="3383000" />
+      <workItem from="1589376482121" duration="8325000" />
+      <workItem from="1589429315154" duration="13863000" />
+      <workItem from="1589462378173" duration="1097000" />
+      <workItem from="1589465240098" duration="3117000" />
     </task>
     <servers />
   </component>
@@ -128,10 +123,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1589359395381" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1589190408051">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="463" y="160" key="FileChooserDialogImpl" timestamp="1589469129120">
+      <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589190408051" />
+    <state x="463" y="160" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1589469129120" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1588846786156">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

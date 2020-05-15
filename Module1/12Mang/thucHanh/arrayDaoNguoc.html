@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị mảng đảo ngược</title>
+</head>
+<body>
+<script>
+    let mang = ['huy', 'tường', 'việt', 'thịnh', 'vũ'];
+    let first = 0;
+    let last = mang.length - 1;
+    while (first<last){
+        let b = mang[first];
+        mang[first] = mang[last];
+        mang[last] = b;
+        first++;
+        last--;
+    }
+    document.write(mang);
+</script>
+</body>
+</html>

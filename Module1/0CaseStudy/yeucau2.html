@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Casestudy C0420G1</title>
+</head>
+<body>
+<script>
+    let name = prompt("Nhập họ tên");
+    let idCard = prompt("Nhập số CMND/Căn Cước;");
+    let phoneNumber = prompt("Số điện thoại của bạn:");
+    let birthday = prompt("Nhập Ngày sinh: ");
+    let email = prompt("Nhập email: ");
+    let address = prompt("Nhập địa chỉ: ");
+    let gender = prompt("Giới tính: ");
+    let typeCustomer = prompt('Loại khách hàng');
+    let discount = prompt("ĐƯợc giảm giá: ");
+    let rentDays = prompt("Số ngày thuê: ");
+    let typeService = prompt("Loại dịch vụ: ");
+    let typeRoom = prompt("Loại phòng: ");
+    let totalPay = 300*rentDays*(1-discount/100);
+
+    // document.write("Tên: " +name);
+    // document.write('<br>');
+    // document.write("Sô CMND/Căn cước: " +idCard);
+    // document.write('<br>');
+    // document.write("Ngày sinh: " +birthday);
+    // document.write('<br>');
+    // document.write("Số điện thoại: " +phoneNumber);
+    // document.write('<br>');
+    // document.write("Email: " +email);
+    // document.write('<br>');
+    // document.write("Địa chỉ: " +address);
+    // document.write('<br>');
+    // document.write("Giới tính: " +gender);
+    // document.write('<br>');
+    // document.write("Loại khách hàng: " +typeCustomer);
+    // document.write('<br>');
+    document.write('Loại dịch vụ: ' +typeService);
+    document.write('<br>');
+    document.write("Loại Phòng: " +typeRoom);
+    document.write('<br>');
+    document.write("Số ngày thuê: " +rentDays);
+    document.write('<br>');
+    document.write("Mã giảm giá: " +discount);
+    document.write('<br>')
+    document.write('Tổng tiền: '+totalPay);
+
+</script>
+</body>
+</html>
