@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chèn dấu (-) giữa 2  số chẵn (Insert dashes (-) between even numbers)</title>
+</head>
+<body>
+<script>
+    // var num = window.prompt();
+    // var str = num.toString();
+    // var result = [str[0]];
+    //
+    // for (var x = 1; x < str.length; x++) {
+    //     if (str[x - 1] % 2 === 0 && str[x] % 2 === 0) {
+    //         result.push('-', str[x]);
+    //     } else {
+    //         result.push(str[x]);
+    //     }
+    // }
+    // alert(result.join(''));
+    // // console.log(result.join(''));
+
+
+    let test = [2,2,2,3,3,3,4,44,3,32,22];
+    let ketqua = [];
+    for (let i=0; i<test.length; i++){
+        if (test[i-1] % 2 == 0 && test[i] % 2 == 0){
+            ketqua.push('**',test[i]);
+            //ketqua.push(test[i]);
+        }
+        else {
+            ketqua.push(test[i]);
+        }
+    }
+    console.log(ketqua.join(' '))
+    //document.write('Dãy sau khi chèn kí tự (-): ' +ketqua.join(' '));
+</script>
+</body>
+</html>

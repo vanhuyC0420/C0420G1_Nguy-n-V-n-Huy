@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/baiTap/bt1NoiPhantu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayDaoNguoc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindMaximum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindValue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang/thucHanh/arrayTaoBanCaro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/bt1NoiPhantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/insertdaugachngang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0CaseStudy/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/yeucau1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0CaseStudy/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0CaseStudy/demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/baiTap/bt1NoiPhantu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayDaoNguoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayDaoNguoc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindMaximum.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayFindMaximum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindValue.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayFindValue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayTaoBanCaro.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayTaoBanCaro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\C0420G1\Module1\12Mang\baiTap\SuDungHamCoSan" />
       <recent name="F:\C0420G1\Module1\Git&amp;HTML\BaiTap" />
     </key>
   </component>
@@ -102,7 +101,7 @@
       <workItem from="1589376482121" duration="8325000" />
       <workItem from="1589429315154" duration="13863000" />
       <workItem from="1589462378173" duration="1097000" />
-      <workItem from="1589465240098" duration="3117000" />
+      <workItem from="1589465240098" duration="12473000" />
     </task>
     <servers />
   </component>
