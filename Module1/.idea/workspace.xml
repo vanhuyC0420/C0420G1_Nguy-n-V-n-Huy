@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/0CaseStudy/CaseStudy_FuramaResort_Module1_final.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0CaseStudy/Check List CaseStudy C0420G1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/inDayFibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/tinhGiaiThua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/GameRandom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/SumIntDiv7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11VongLap2/inRa100so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/arrayFindMaxof10integer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/arrayof10integer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/daoCacPhanTuArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/findMax&amp;average.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/Từ điển/dictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/demoTicTacToe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/democaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/ticTacToe_Mang2Chieu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/HamConfirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/Banco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/CVcaNhan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/Calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/surveyCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/Máy tính/MayTinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/demoLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/goodfastcheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/puzzle/gamePuzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/temperatureConverter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11VongLap2/bt3DayFibonaxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt3DayFibonaxy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11VongLap2/bt5CongFibonaci.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt5CongFibonaci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt4FibinaccyChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt4FibinaccyChia5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/bank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +103,7 @@
       <workItem from="1589683654512" duration="5560000" />
       <workItem from="1589714705902" duration="2247000" />
       <workItem from="1589726722020" duration="8297000" />
-      <workItem from="1589767512625" duration="8942000" />
+      <workItem from="1589767512625" duration="10313000" />
     </task>
     <servers />
   </component>
