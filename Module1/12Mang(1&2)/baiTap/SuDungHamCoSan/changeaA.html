@@ -6,28 +6,51 @@
 </head>
 <body>
 <script>
-
-    // let str = ['C'];
-    // let UPPER = 'ABCDEFGHIJKL';
-    // let LOWER = 'abcdefghijkl';
-    // let result = [];
-    //
-    // for(var x=0; x<str.length; x++)
-    // {
-    //     if(UPPER.indexOf(str[x]) !== -1)
-    //     {
-    //         result.push(UPPER[x].toLowerCase());
-    //     }
-    //     else if(LOWER.indexOf(str[x]) !== -1)
-    //     {
-    //         result.push(UPPER[x].toUpperCase());
-    //     }
-    //     else
-    //     {
-    //         result.push(LOWER[x]);
-    //     }
-    // }
-    // console.log(result);
+    let str= "Trung Tâm CODEgym";
+    let arr=[];
+    var UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var LOWER = "abcdefghijklmnopqrstuvwxyz";
+    function checkCharacter(character) {
+        if (UPPER.indexOf(character) != -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function transform(character) {
+        if (checkCharacter(character)) {
+            return character.toLowerCase();
+        } else {
+            return character.toUpperCase();
+        }
+    }
+    for(i=0;i<str.length;i++){
+        arr[i]=transform(str[i]);
+    }
+    document.write(arr.join(""));
+    console.log(arr.join(""));
 </script>
+<!--<script>-->
+<!--    let str = ['C'];-->
+<!--    let UPPER = 'ABCDEFGHIJKL';-->
+<!--    let LOWER = 'abcdefghijkl';-->
+<!--    let result = [];-->
+<!--    for(var x=0; x < str.length; x++)-->
+<!--    {-->
+<!--        if(UPPER.indexOf(str[x]) !== -1)-->
+<!--        {-->
+<!--            result.push(UPPER[x].toLowerCase());-->
+<!--        }-->
+<!--        else if(LOWER.indexOf(str[x]) !== -1)-->
+<!--        {-->
+<!--            result.push(UPPER[x].toUpperCase());-->
+<!--        }-->
+<!--        else-->
+<!--        {-->
+<!--            result.push(LOWER[x]);-->
+<!--        }-->
+<!--    }-->
+<!--    console.log(result);-->
+<!--</script>-->
 </body>
 </html>

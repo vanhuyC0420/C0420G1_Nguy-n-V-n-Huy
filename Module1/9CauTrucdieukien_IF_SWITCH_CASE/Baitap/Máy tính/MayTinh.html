@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<body>
+<div class="divtag">
+    <input class="textbox" id="textbox">
+    <table>
+        <tr>
+<!--            gọi hàm để chèn kí tự ở mỗi lần onclick vào các button-->
+            <td><button class="button"  onclick = addNumber("(")>(</button></td>
+            <td><button class="button"  onclick = addNumber(")")>)</button></td>
+            <td><button class="button"  onclick = addNumber("%")>%</button></td>
+            <td><button class="button"  onclick = addNumber("AC")>AC</button></td>
+        </tr>
+
+        <tr>
+            <!--            gọi hàm để chèn kí tự ở mỗi lần onclick vào các button-->
+            <td><button class="button"  onclick = addNumber("7")>7</button></td>
+            <td><button class="button"  onclick = addNumber("8")>8</button></td>
+            <td><button class="button"  onclick = addNumber("9")>9</button></td>
+            <td><button class="button"  onclick = addNumber("/")>/</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button"  onclick = addNumber("4")>4</button></td>
+            <td><button class="button"  onclick = addNumber("5")>5</button></td>
+            <td><button class="button"  onclick = addNumber("6")>6</button></td>
+            <td><button class="button"  onclick = addNumber("*")>*</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button"  onclick = addNumber("1")>1</button></td>
+            <td><button class="button"  onclick = addNumber("2")>2</button></td>
+            <td><button class="button"  onclick = addNumber("3")>3</button></td>
+            <td><button class="button"  onclick = addNumber("-")>-</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button"  onclick = addNumber("0")>0</button></td>
+            <td><button class="button"  onclick = addNumber(".")>.</button></td>
+            <td><button class="button"  onclick = addNumber("=")>=</button></td>
+            <td><button class="button"  onclick = addNumber("+")>+</button></td>
+        </tr>
+    </table>
+</div>
+<script>
+    // hàm tính toán các phép tính.
+    function calculation(x) {
+        let result = eval(x.value);
+        x.value = result;
+    }
+    // hàm chèn số vào các button và hiển thị kết quả ở nut = và nút AC.
+    function addNumber(cal) {
+        let x = document.getElementById("textbox");
+        if (cal == "="){calculation(x);}
+        else if (cal == "AC"){x.value=""}
+        else{x.value = x.value+cal;}
+
+    }
+</script>
+</body>
+</html>

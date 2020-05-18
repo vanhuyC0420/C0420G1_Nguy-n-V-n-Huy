@@ -2,16 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/bt1NoiPhantu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/insertdaugachngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0CaseStudy/CaseStudy_FuramaResort_Module1_final.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0CaseStudy/Check List CaseStudy C0420G1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/inDayFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/tinhGiaiThua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11VongLap2/GameRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11VongLap2/SumIntDiv7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11VongLap2/inRa100so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/arrayFindMaxof10integer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/arrayof10integer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/daoCacPhanTuArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/LuyenTap1/findMax&amp;average.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/Từ điển/dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/demoTicTacToe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/democaro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/gameCaro/ticTacToe_Mang2Chieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/HamConfirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/Banco.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/CVcaNhan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/Calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 HTMLForm&amp;Table/BaiTap/surveyCustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/Máy tính/MayTinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/demoLoveMe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/goodfastcheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/puzzle/gamePuzzle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/baiTap/bt1NoiPhantu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayDaoNguoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayDaoNguoc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayElement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindMaximum.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayFindMaximum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayFindValue.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayFindValue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Mang/thucHanh/arrayTaoBanCaro.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/thucHanh/arrayTaoBanCaro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11VongLap2/bt3DayFibonaxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt3DayFibonaxy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11VongLap2/bt5CongFibonaci.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt5CongFibonaci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt4FibinaccyChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/btFibonaci/bt4FibinaccyChia5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/SuDungHamCoSan/changeaA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/11VongLap2/BàiTap2/bank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9CauTrucdieukien_IF_SWITCH_CASE/Baitap/caculator.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +71,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="F:/CODEGYM.CC/CodeGym/caseStudy1/caseStudy1/Code/demo2.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\C0420G1\Module1\11VongLap2\btFibonaci" />
+      <recent name="F:\C0420G1\Module1\9CauTrucdieukien_IF_SWITCH_CASE\Baitap\puzzle" />
+      <recent name="F:\C0420G1\Module1\12Mang(1&amp;2)\baiTap\Từ điển" />
+      <recent name="F:\C0420G1\Module1\9CauTrucdieukien_IF_SWITCH_CASE\Baitap\Máy tính" />
       <recent name="F:\C0420G1\Module1\12Mang\baiTap\SuDungHamCoSan" />
-      <recent name="F:\C0420G1\Module1\Git&amp;HTML\BaiTap" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +126,13 @@
       <workItem from="1589376482121" duration="8325000" />
       <workItem from="1589429315154" duration="13863000" />
       <workItem from="1589462378173" duration="1097000" />
-      <workItem from="1589465240098" duration="12473000" />
+      <workItem from="1589465240098" duration="25929000" />
+      <workItem from="1589558006091" duration="9105000" />
+      <workItem from="1589638376782" duration="6515000" />
+      <workItem from="1589683654512" duration="5560000" />
+      <workItem from="1589714705902" duration="2247000" />
+      <workItem from="1589726722020" duration="8297000" />
+      <workItem from="1589767512625" duration="8942000" />
     </task>
     <servers />
   </component>
@@ -118,6 +149,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1588575650057" />
+    <state x="756" y="208" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589563601509">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="756" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1589563601509" />
     <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1589359395381">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -191,6 +226,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1588846786195" />
+    <state x="184" y="47" key="SettingsEditor" timestamp="1589773498313">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="184" y="47" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1589773498313" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589163857317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

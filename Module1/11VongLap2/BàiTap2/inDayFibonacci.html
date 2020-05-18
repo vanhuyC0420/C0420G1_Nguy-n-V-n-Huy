@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra dãy số fibonacci</title>
+</head>
+<body>
+<script>
+    let before = 0;
+    let after = 1;
+    let total;
+    for (let i=0;i<100;i++){
+        total=before+after;
+        before=after;
+        after=total;
+        document.write(total+'<br>');
+    }
+</script>
+</body>
+</html>

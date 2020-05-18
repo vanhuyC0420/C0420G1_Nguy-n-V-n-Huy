@@ -6,7 +6,23 @@
 </head>
 <body>
 <script>
-    alert('Xin chào các bạn');
+    // alert('Xin chào các bạn');
+    let a=0;
+    let b=1;
+    let c;
+    for (let i=0;i<20;i++){
+        c=a+b;
+        a=b;
+        b=c;
+        if (c%5==0){
+            document.write('Số đầu tiên chia hết cho 5: '+c+ '<br>');
+           // document.write('Số thứ '+i +' chia hết cho 5 '+c+ '<br>');
+
+            // document.write(c);
+            //break;
+        }
+        // document.write('Số thứ '+i +' chia hết cho 5 '+c+ '<br>');
+    }
 </script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTac Toe</title>
+</head>
+<body>
+<h3>Caro Game Simple</h3>
+<p id="carogame" />
+<input type="button" value="Change Value" onclick="changeValue()">
+<script>
+    let b = document.getElementById("carogame ");
+    let board = [];
+    let data = "";
+    for (let i = 0; i < 8; i++) {
+        board[i] = new Array('H','H','H','H','H','H','H','H',);
+    }
+    for (let i = 0; i < 8; i++) {
+        data += "<br>";
+        for (let j = 0; j < 8; j++) {
+            data += board[i][j] + "&nbsp;&nbsp;";
+        }
+    }
+    data += "<br><br><input type='button' value='Change Value' onclick='changeValue()'>";
+    document.getElementById("carogame").innerHTML = data;
+    function changeValue() {
+        let positionX = prompt("X: ");
+        let positionY = prompt("Y: ");
+        data = "";
+        board[positionX][positionY] = "X";
+        for (let i = 0; i < 8; i++) {
+            data += "<br>";
+            for (let j = 0; j < 8; j++) {
+                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        }
+        data += "<br><br><input type='button' value='Change Value' onclick='changeValue()'>";
+        document.getElementById("carogame").innerHTML = "<hr/>" + data;
+    }
+</script>
+</body>
+</html>

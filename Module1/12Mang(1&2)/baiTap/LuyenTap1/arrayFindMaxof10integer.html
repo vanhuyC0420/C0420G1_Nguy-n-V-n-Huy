@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó</title>
+</head>
+<body>
+<script>
+    let array10element = [452,12,3,13,45,5,7,8,10,20];
+    let count=0;
+    let max = array10element[0];
+    for (let i=0;i<array10element.length;i++){
+       if (array10element[i]>max){
+           max=array10element[i];
+           count = i;
+       }
+    }
+    document.write('Max of array = '+max+ '<br>'+ " position: "+count);
+</script>
+</body>
+</html>

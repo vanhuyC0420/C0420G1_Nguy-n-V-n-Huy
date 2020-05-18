@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find max and average</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên. Hiển hiện giá trị lớn nhất trong mảng đó.
+In ra giá trị trung bình của các phần tử trong mảng.-->
+<script>
+    let codegym = [7,6,5,4,3,5];
+    let max = codegym[0];
+    let average;
+    let total=0;
+    for (let i=0;i<=codegym.length-1;i++){
+        total+=codegym[i];
+        if (max<codegym[i]){
+            max=codegym[i];
+        }
+    }
+    average=total/codegym.length;
+    document.write('Max = '+max+ '<br>' +' Average = '+average);
+</script>
+</body>
+</html>

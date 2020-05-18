@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum of 30 Integer division 7</title>
+</head>
+<body>
+<script>
+
+    let numbers = parseInt(prompt("nhập số lượng số tự nhiên đầu tiên chia hết cho 7 cần tính tổng"));
+    let total = 0;
+    let count=0;
+    let N=0; // số tự nhiên đâu tiên;
+    while(count<=numbers){
+        if(N%7==0){
+            total+= N;
+            count++;
+        }
+        N++;
+    }
+    document.write("Tổng "+ numbers +" số tự nhiên đầu tiên là: "+total);
+
+</script>
+</body>
+</html>
