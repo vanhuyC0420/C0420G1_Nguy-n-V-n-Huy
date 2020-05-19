@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm số nguyên tố</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        let check = true;
+        for (let i=2;i<number;i++){
+            if (number%i==0){
+                check = false;
+            }
+        }
+        if (number == 1)
+            check = false;
+        return check;
+    }
+    let so = parseInt(prompt('Nhập vào 1 số: '));
+    if (isPrime(so) == true){
+        alert(so +' is prime');
+    }
+    else
+        alert(so + ' is not prime');
+</script>
+</body>
+</html>
