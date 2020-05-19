@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo hàm 2 tham số</title>
+</head>
+<script>
+    function addTwoNumber(a,b) {
+        let total =0;
+        if (a>b){
+            alert("Bạn hãy nhập lại giá trị a sao cho a < b");
+        }
+        else if (a<b){
+            total = a+b;
+            document.write('Tổng 2 số bạn nhập = ' + total);
+        }
+    }
+    let number1 = parseInt(prompt("Nhập vào 1 số: "));
+    let number2 = parseInt(prompt("Nhập vào 1 số: "));
+
+</script>
+<body>
+<input type="text" id="so1">
+<input type="text" id="so2">
+<input type="button" value="Kiểm tra" onclick="addTwoNumber(number1,number2);">
+</body>
+</html>

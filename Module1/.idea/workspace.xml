@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/SoNguyenTo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 HocCachHoc/demo/demoConvertYardToMeter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/feetTometers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/Từ điển/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/12Mang(1&amp;2)/baiTap/Từ điển/dictionary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/temperatureConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/temperatureConverter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +113,7 @@
       <workItem from="1589726722020" duration="8297000" />
       <workItem from="1589767512625" duration="11026000" />
       <workItem from="1589835793999" duration="9297000" />
-      <workItem from="1589851059857" duration="5570000" />
+      <workItem from="1589851059857" duration="20009000" />
     </task>
     <servers />
   </component>

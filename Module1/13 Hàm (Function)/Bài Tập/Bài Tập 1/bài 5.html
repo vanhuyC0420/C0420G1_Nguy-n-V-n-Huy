@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chòm sao</title>
+</head>
+<body>
+<script>
+let array1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+let array2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+let c = prompt('Nhập vào 1 ngôi sao');
+let kq = findName(c);
+if (kq==-1){
+    alert('Không có trong danh sách');
+}
+else {
+    alert('ngôi sao '+array1[kq]+' thuộc ngôi sao '+array2[kq]);
+}
+function findName(x) {
+    for(let i =0; i<array1.length;i++){
+        if(x== array1[i])
+            return i;
+    }
+    return -1;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi Feet to Meters</title>
+</head>
+<body>
+<form>
+    <h2><b>Convert to feet from meters and revert</b></h2>
+    <label>Feet : </label><input id="feet" type="number" onchange="convertermeters()" oninput="convertermeters()">
+    <br>
+    <label>Meters: </label><input id="meters" type="number" onchange="converterfeet()" oninput="converterfeet()">
+</form>
+<script>
+    function converterfeet() {
+       let feet = document.getElementById("feet");
+       let met = document.getElementById("meters");
+       met.value = 0.305*feet.value;
+    }
+    function convertermeters() {
+        let feet = document.getElementById("feet");
+        let met = document.getElementById("meters");
+        feet.value = 3.279*met.value;
+    }
+
+</script>
+</body>
+</html>

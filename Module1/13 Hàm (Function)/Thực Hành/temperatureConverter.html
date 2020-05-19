@@ -8,7 +8,7 @@
 <p><label>Fahrenheit</label>
 <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
        oninput="converter(this.value)"
-       onchange="converter(this.value)"></p>
+       onchange="converter(this.value)" min="0"></p>
 <p>Celsius: <span id="outputCelcius"></span></p>
 <script>
     function converter(valNum) {

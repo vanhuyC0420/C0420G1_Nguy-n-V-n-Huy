@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHuyển đổi từ yard sang met</title>
+</head>
+<body>
+<form>
+    <div>
+        <input id="from" type="number" min="0" max="1000000000000" step="any" placeholder="1" onkeyup="convert('from', 'to', 0.9144, 10);" onchange="convert('from', 'to', 0.9144, 10);" value="1">&nbsp;<span class="unit">yd</span>
+    </div>
+    <div class="center">=</div>
+    <div>
+        <input id="to" type="number" min="0" max="1000000000000" step="any" placeholder="1" onkeyup="convert('to', 'from', 1.09361329834, 10);" onchange="convert('to', 'from', 1.09361329834, 10);" value="0.9144">&nbsp;<span class="unit">m</span>
+    </div>
+</form>
+</body>
+</html>
