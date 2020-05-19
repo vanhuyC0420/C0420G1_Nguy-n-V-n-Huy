@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/temperatureConverter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Thực Hành/minArray.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/yeucau1.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/yeucau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,9 @@
       <workItem from="1589683654512" duration="5560000" />
       <workItem from="1589714705902" duration="2247000" />
       <workItem from="1589726722020" duration="8297000" />
-      <workItem from="1589767512625" duration="10313000" />
+      <workItem from="1589767512625" duration="11026000" />
+      <workItem from="1589835793999" duration="9297000" />
+      <workItem from="1589851059857" duration="2544000" />
     </task>
     <servers />
   </component>

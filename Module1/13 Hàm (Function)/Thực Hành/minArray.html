@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị nhỏ nhất</title>
+</head>
+<body>
+<script>
+    let mang1 = [3,5,1,8,-3,7,8];
+    let mang2 = [1,7,12,6,9,20,99];
+    let mang3 = [];
+    let mang4 = [0,0,0,0];
+    function minarray(a) {
+        let min = a[0];
+        if (a.length == 0){
+            return -1;
+        }
+        for (let i = 1;i<a.length;i++){
+            if (min > a[i]){
+                min = a[i];
+            }
+        }
+        return min
+    }
+    document.write(minarray(mang1)+'<br>');
+    document.write(minarray(mang2)+'<br>');
+    document.write(minarray(mang3)+'<br>');
+    document.write(minarray(mang4)+'<br>');
+</script>
+</body>
+</html>
