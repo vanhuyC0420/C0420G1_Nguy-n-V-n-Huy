@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm tính diện tích, hàm tính chu vi hình tròn</title>
+</head>
+<body>
+<script>
+let radian = parseFloat(prompt('Nhập bán kính hình tròn: '));
+calculatorCircle(radian);
+function calculatorCircle(r) {
+    // let r;
+    const pi = 3.1415;
+    let s;
+    let c;
+    s=r*r*pi;
+    c=2*r*pi;
+    document.write('Diện tích = '+s+ '<br>');
+    document.write('Chu vi = '+c);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vẽ Hình Chữ Nhật</title>
+</head>
+<body>
+<canvas id="myCanvas" height="1280px" width="720px" style="border: 1px"></canvas>
+<script>
+    let ctx = document.getElementById("myCanvas").getContext("2d");
+class Rectangle{
+    constructor(height, width) {
+        this.height = height;
+        // this.x = x;
+        // this.y = y;
+        this.width = width;
+    }
+    getHeight(){
+        return this.height;
+    }
+    getWidth(){
+        return this.width;
+    }
+    getArea(){
+        return this.width*this.height;
+    }
+    getPerimeter(){
+        return (this.height+this.width)*2;
+    }
+    setHeight(height){
+        this.height = height;
+
+    }
+    setWidth(width){
+        this.width = width;
+    }
+    getPaintRectangle(){
+        ctx.beginPath();
+        ctx.rect(111,111,this.height,this.width);
+        ctx.stroke();
+
+    }
+}
+let hinhCN = new Rectangle(50,150);
+    hinhCN.setHeight(100);
+    hinhCN.setWidth(110);
+alert("diện tích = "+hinhCN.getArea());
+alert("chu vi = "+hinhCN.getPerimeter());
+hinhCN.getPaintRectangle();
+
+// function paintRectangle() {
+//     let hinhChuNhat = new Rectangle(10,15);
+//     ctx.beginPath();
+//     // ctx.arc(hinhChuNhat.x, hinhChuNhat.y, hinhChuNhat.width, hinhChuNhat.height, 0 , 2*Math.PI);
+//     let area = hinhChuNhat.getArea();
+//     alert("Diện tích hình chữ nhât = "+area);
+//     let perimeter = hinhChuNhat.getPerimeter();
+//     alert("Chu vi hình chữ nhật = "+perimeter);
+//     hinhChuNhat.rect(10,15);
+// }
+// paintRectangle();
+</script>
+</body>
+</html>

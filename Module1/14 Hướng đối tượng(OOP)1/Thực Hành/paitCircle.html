@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vẽ hình tròn đơn giản</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border: 1px"> </canvas>
+<script>
+    //vẽ 1 hình tròn:
+    // function Circle(x, y, radius){
+    //     this.x = x;
+    //     this.y = y;
+    //     this.radius = radius;
+    // }
+    // function createCircle(){
+    //     let ctx = document.getElementById("myCanvas").getContext("2d");
+    //     let circle= new Circle(500, 300, 80);
+    //     ctx.beginPath();
+    //     ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+    //     ctx.fill();
+    // }
+    // createCircle(); // Gọi hàm để thực hiện vẽ hình tròn:
+
+
+    // Vẽ hình tròn với bán kinh ngẩu nhiên
+    // function hinhTron(a, b, bankinh) {
+    //     this.a = a;
+    //     this.b = b;
+    //     this.bankinh = bankinh;
+    // }
+    // function veHinhtrong() {
+    //     let ve = document.getElementById("myCanvas").getContext("2d");
+    //     let bankinh = Math.floor(Math.random()*100);
+    //     let hinhtron = new hinhTron(200,200,bankinh);
+    //     ve.beginPath();
+    //     ve.arc(hinhtron.a, hinhtron.b, hinhtron.bankinh, 0, 2*Math.PI);
+    //     ve.fill();
+    // }
+    // veHinhtrong();
+
+    // Vẽ hình trong]f với màu và bán kinh ngẫu nhiên.
+    function Circle(x, y, radius){
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+    }
+
+    function getRandomHex(){
+        return Math.floor(Math.random()*255);
+    }
+
+    function getRandomColor(){
+        var red = getRandomHex();
+        var green = getRandomHex();
+        var blue = getRandomHex();
+        return "rgb(" + red + "," + blue + "," + green +")";
+    }
+
+    function createCircle(){
+        var ctx = document.getElementById("myCanvas").getContext("2d");
+        var radius = Math.floor(Math.random() * 180);
+        var color = getRandomColor();
+        var circle= new Circle(500, 500, radius);
+        ctx.beginPath();
+        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+        ctx.fillStyle = color;
+        ctx.fill();
+    }
+
+    createCircle();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('Nhập số: '));
+    document.write('Factorial of ' +a+ ' = ' +calculatorFactorial(a));
+    function calculatorFactorial(number) {
+        let factorial = 1;
+        for (let i=1;i<=number;i++){
+            factorial *= i;
+
+        }
+        return factorial;
+
+    }
+</script>
+</body>
+</html>

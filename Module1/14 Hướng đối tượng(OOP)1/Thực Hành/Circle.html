@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình tròn</title>
+</head>
+<body>
+<script>
+    class circle {
+        constructor(radius,color) {
+            this.radius = radius;
+            this.color = color;
+        }
+        getColor(){
+            return this.color;
+        }
+        getRadius()  {
+            return this.radius;
+        }
+        getArea()   {
+            return Math.PI * this.radius * this.radius;
+        }
+    }
+    let circle1 = new circle(2,'Xanh lá');
+    let radius = circle1.getRadius();
+    let area = circle1.getArea();
+    let color = circle1.getColor();
+    alert("Bán kính: " +radius+ "\n Màu sắc: "+color+ "\n Diện tích = " +area);
+</script>
+</body>
+</html>
