@@ -20,22 +20,7 @@
     let typeRoom = "Vip";
     let quantityIncluded = 10;
     let totalPay;
-
-    // let namee;
-    // let idCard;
-    // let phoneNumber;
-    // let birthday;
-    // let email;
-    // let address;
-    // let gender;
-    // let typeCustomer;
-    // let discount = 10;
-    // let rentDays;
-    // let typerService;
-    // let quantityIncluded;
-    // let typeRoom;
-    // let totalPay;
-    //
+    
     // namee = prompt("Nhập họ tên");
     // idCard = prompt("Nhập số CMND/Căn Cước;");
     // phoneNumber = prompt("Số điện thoại của bạn:");
@@ -179,6 +164,15 @@
             }
             let temp = 0;
             if (address === "Đà Nẵng"){
+                let curenYear = new Date().getFullYear();
+                let sinhNhat = new Date(birthday).getFullYear();
+                let ageCustomer = curenYear - sinhNhat;
+                if (ageCustomer > 30){
+                    temp += 2;
+                }
+                else if (ageCustomer <= 30 && ageCustomer >= 20){
+                    temp +=1;
+                }
                 temp += 20;
             }else if (address === "Huế"){
                 temp += 10;
@@ -202,6 +196,9 @@
             }else if (typeCustomer === "Silver"){
                 temp += 2;
             }
+            // if (address==="Đà Nẵng"){
+            //
+            // }
             alert("Tổng tiền = " + (money * rentDays - temp));
             break;
         }

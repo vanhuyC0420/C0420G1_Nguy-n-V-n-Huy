@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô ta lớp điện thoại</title>
+</head>
+<body>
+<script>
+    class Mobile{
+        constructor(bartely,phoneNumber,status) {
+            this.bartely = bartely;
+            this.phoneNumber = phoneNumber;
+            this.status = status;
+            this.soanThao = [];
+            this.thuDen = [];
+            this.daGui = [];
+        }
+        isOnOrOff(){
+            if (this.status){
+                return true;
+            }else {
+                return false;
+            }
+        }
+        OnOffMobile(){
+            if (status){
+                this.status = false;
+            }else {
+                this.status = true;
+            }
+        }
+        sacPin(){
+            while (this.bartely<100){
+                this.bartely += 0.0001;
+            }
+        }
+        soanTinNhan(){
+            if (this.isOnOrOff()){
+                let temp = prompt("Nội dung tin nhắn bạn muộn viết: ");
+                this.soanThao.push(temp);
+            }else {
+                alert("Điện thoại đang tắt.");
+            }
+            this.bartely --;
+        }
+        nhanTinNhan(){
+            alert("bạn có tin nhắn mới");
+        }
+        guiTInNhan(mobile){
+            if (this.isOnOrOff()){
+                let temp = "";
+                for (let i = 0;i<this.soanThao.length;i++){
+                    temp += (i+1) + "."+this.soanThao[i] + "\n";
+                }
+                let index = prompt("Mời bạn nhập thư muốn gửi:\n "+temp);
+                mobile.thuDen.push(this.phoneNumber+"."+this.soanThao[index-1]);
+                this.daGui.push(this.soanThao[index-1]);
+                this.soanThao.splice(index-1,1);
+                mobile.nhanTinNhan();
+            }
+            else {
+                alert("Điện thoại đang tắt");
+            }
+            this.bartely--;
+        }
+        xemTinNhan(){
+            if (this.isOnOrOff()){
+                let temp = "";
+                for (let i=0;i<this.thuDen.length;i++){
+                    temp += (i+1)+"."+ this.thuDen[i]+"\n";
+                }alert(temp);
+            }else {
+                alert("Điện thoại đang tắt");
+            }
+            this.bartely;
+        }
+    }
+    let vinsmart = new  Mobile(100,12345,true);
+    let bphone = new Mobile(100,54321,true);
+    vinsmart.soanTinNhan();
+    vinsmart.soanTinNhan();
+    vinsmart.guiTInNhan();
+    bphone.xemTinNhan();
+</script>
+</body>
+</html>

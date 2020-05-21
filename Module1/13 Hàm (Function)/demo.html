@@ -2,20 +2,23 @@
 <html>
 <head>
 
-    <script type="text/javascript">
-        <!--
-        function showValue()
-        {
-            var dayOfMonth = 50;
-
-            if (dayOfMonth < 1 || dayOfMonth > 31)
-            {
-                dayOfMonth = Number.NaN
-                alert("Day of Month must be between 1 and 31.")
+    <script>
+        let string ='123321';
+        alert(f(string));
+        function f(st) {
+            let first=0;
+            let last=st.length-1;
+            if(first>=last) {
+                return true;
             }
-            Document.write("Value of dayOfMonth : " + dayOfMonth );
+            else if(st[first]!== st[last]){
+                return false;
+            }
+            else{
+                alert(st);
+                return f(st.slice(1,st.length-1))
+            }
         }
-        //-->
     </script>
 
 </head>

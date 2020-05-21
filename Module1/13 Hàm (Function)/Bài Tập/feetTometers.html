@@ -5,23 +5,34 @@
     <title>Chuyển đổi Feet to Meters</title>
 </head>
 <body>
-<form>
-    <h2><b>Convert to feet from meters and revert</b></h2>
-    <label>Feet : </label><input id="feet" type="number" onchange="convertermeters()" oninput="convertermeters()">
-    <br>
-    <label>Meters: </label><input id="meters" type="number" onchange="converterfeet()" oninput="converterfeet()">
-</form>
+
+Nhập số <input id="dữ liệu" type="number" min="0">
+<input type="button" onclick="converterfeet()" value="Đổi sang mét">
+<input type="button" onclick="convertermeters()" value="Đổi sang feet">
+<p id="Hiển thị"></p>
 <script>
-    function converterfeet() {
-       let feet = document.getElementById("feet");
-       let met = document.getElementById("meters");
-       met.value = 0.305*feet.value;
+    function converterfeet(feet) {
+        // let feet;
+        let meet = 0.305*feet;
+        return meet;
+        document.getElementById("Hiển thị").innerHTML=;
+       // let feet = document.getElementById("feet");
+       // let met = document.getElementById("meters");
+       // met.value = 0.305*feet.value;
     }
-    function convertermeters() {
-        let feet = document.getElementById("feet");
-        let met = document.getElementById("meters");
-        feet.value = 3.279*met.value;
+    function convertermeters(meet) {
+        // let meet;
+        let feet = 3.279*meet;
+        return feet;
+        document.getElementById("Hiển thị").innerHTML=feet.value;
+        // let feet = document.getElementById("feet");
+        // let met = document.getElementById("meters");
+        // feet.value = 3.279*met.value;
     }
+
+    // let a = prompt("Nhập giá trị ");
+    // document.write(a+ " mét = "+convertermeters(a)+ " feet.<br>");
+    // document.write(a + " feet = " +converterfeet(a)+ " mét");
 
 </script>
 </body>

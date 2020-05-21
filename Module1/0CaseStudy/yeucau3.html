@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu cầu 3 case study</title>
+</head>
+<body>
+<script>
+    let name;
+    let idCard;
+    let phoneNumber;
+    let birthday;
+    let email;
+    let address;
+    let gender;
+    let typeCustomer;
+    let discount = 10;
+    let rentDays;
+    let typerService;
+    let quantityIncluded;
+    let typeRoom;
+    let totalPay;
+
+    namee = prompt("Nhập họ tên");
+    idCard = prompt("Nhập số CMND/Căn Cước;");
+    phoneNumber = prompt("Số điện thoại của bạn:");
+    birthday = prompt("Nhập Ngày sinh: ");
+    email = prompt("Nhập email: ");
+    address = prompt("Nhập địa chỉ: ");
+    gender = prompt("Giới tính: " + "\n" + "Nam" + "\n" + "Nữ" + "\n" + "Giới tính khác.");
+    typeCustomer = prompt('Loại khách hàng' + "\n"+
+    "1.Diamond" +"\n"+
+    "2.Platium" + "\n"+
+    "3.Gold" + "\n"+
+    "4.Silver" + "\n"+
+    "5.Member");
+    discount = prompt("ĐƯợc giảm giá: ");
+    rentDays = prompt("Số ngày thuê: ");
+    typerService = prompt("Loại dịch vụ: " + "\n"+
+    "Villa" + "\n"+
+    "House" + "\n"+
+    "Room");
+    quantityIncluded = prompt("Nhập số lượng đi kèm: ");
+    typeRoom = prompt("Loại phòng: " + "\n"+
+    "1.VIP" + "\n"+
+    "2.Business" + "\n"+
+    "3.Normal");
+    totalPay = 300*rentDays*(1-discount/100);
+
+    // alert("Tên: " +name+ " Số CMND/Căn cước: " +idCard+ " ngày sinh: " + birthday);
+    document.write("Tên: " +name);
+    document.write('<br>');
+    document.write("Sô CMND/Căn cước: " +idCard);
+    document.write('<br>');
+    document.write("Ngày sinh: " +birthday);
+    document.write('<br>');
+    document.write("Số điện thoại: " +phoneNumber);
+    document.write('<br>');
+    document.write("Email: " +email);
+    document.write('<br>');
+    document.write("Địa chỉ: " +address);
+    document.write('<br>');
+    document.write("Giới tính: " +gender);
+    document.write('<br>');
+    document.write("Loại khách hàng: " +typeCustomer);
+    document.write('<br>');
+    document.write("Loại dịch vụ: " +typerService);
+    document.write('<br>');
+    document.write("Loại Phòng: " +typeRoom);
+    document.write('<br>');
+    document.write("Loại Phòng: " +quantityIncluded);
+    document.write('<br>');
+    document.write("Số ngày thuê: " +rentDays);
+    document.write('<br>');
+    document.write("Mã giảm giá: " +discount);
+    document.write('<br>')
+    document.write('Tổng tiền: '+totalPay);
+</script>
+</body>
+</html>

@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="069fe566-9a75-47a2-b90b-2d709a967ec1" name="Default Changelist" comment="đưa lên">
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function2/Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function2/Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function2/Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function2/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Hàm (Function)/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Bài tập/Hình Chữ Nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Thực Hành/Circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Thực Hành/classMydate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Thực Hành/paitCircle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Thực Hành/testCanvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0CaseStudy/yeucau3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Bài tập/Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Hướng đối tượng(OOP)1/Bài tập/môtaMobile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function1/bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function1/bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function1/bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function1/bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Bài Tập 1/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/Function1/bài 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/0CaseStudy/yeucau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/feetTometers.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/Bài Tập/feetTometers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 Hàm (Function)/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 Hàm (Function)/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +108,10 @@
       <workItem from="1589767512625" duration="11026000" />
       <workItem from="1589835793999" duration="9297000" />
       <workItem from="1589851059857" duration="28188000" />
-      <workItem from="1589937365147" duration="15190000" />
+      <workItem from="1589937365147" duration="17295000" />
+      <workItem from="1589989611732" duration="3206000" />
+      <workItem from="1590013460055" duration="3150000" />
+      <workItem from="1590031944150" duration="4946000" />
     </task>
     <servers />
   </component>
