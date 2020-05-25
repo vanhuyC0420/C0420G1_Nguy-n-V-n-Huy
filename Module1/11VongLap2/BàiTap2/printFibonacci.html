@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+</head>
+<body>
+<script>
+    let fibonacci = [0,1,1];
+    for (let i = 3; i < 30; i ++){
+        fibonacci.push(fibonacci[i-1] + fibonacci[i-2]);
+    }
+    document.write("Dãy 30 số Fibonacci: " + fibonacci);
+</script>
+</body>
+</html>

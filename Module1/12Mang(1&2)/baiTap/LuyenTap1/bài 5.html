@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số nguyên âm trong một chuỗi</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,-2,4,5,-1];
+    function check(z) {
+        let count = 0;
+        for (let i = 0;i<z.length;i++){
+            if (z[i] < 0){
+                count ++;
+            }
+        }
+        // return count;
+        alert(count);
+    }
+    check(arr);
+    // alert(check(arr));
+</script>
+</body>
+</html>

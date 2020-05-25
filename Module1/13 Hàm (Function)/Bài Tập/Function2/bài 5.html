@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất</title>
+</head>
+<body>
+<script>
+    let a = prompt("Số đầu tiên: ");
+    let b = prompt("Số thứ 2: ");
+    let c = prompt("Số thứ 3: ");
+    alert("Sô nhỏ nhất = "+findMinValue(a,b,c));
+    function findMinValue(z,x,v) {
+        let min =z;
+        if (min>x){
+            min=x;
+            if (min>v){
+                min=v;
+            }
+        }else if (min>v){
+            min=v;
+        }
+        return min;
+    }
+</script>
+</body>
+</html>

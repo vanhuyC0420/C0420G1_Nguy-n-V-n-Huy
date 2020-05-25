@@ -5,35 +5,50 @@
     <title>Chuyển đổi Feet to Meters</title>
 </head>
 <body>
-
-Nhập số <input id="dữ liệu" type="number" min="0">
-<input type="button" onclick="converterfeet()" value="Đổi sang mét">
-<input type="button" onclick="convertermeters()" value="Đổi sang feet">
-<p id="Hiển thị"></p>
-<script>
-    function converterfeet(feet) {
-        // let feet;
-        let meet = 0.305*feet;
-        return meet;
-        document.getElementById("Hiển thị").innerHTML=;
-       // let feet = document.getElementById("feet");
-       // let met = document.getElementById("meters");
-       // met.value = 0.305*feet.value;
-    }
-    function convertermeters(meet) {
-        // let meet;
-        let feet = 3.279*meet;
-        return feet;
-        document.getElementById("Hiển thị").innerHTML=feet.value;
-        // let feet = document.getElementById("feet");
-        // let met = document.getElementById("meters");
-        // feet.value = 3.279*met.value;
-    }
-
-    // let a = prompt("Nhập giá trị ");
-    // document.write(a+ " mét = "+convertermeters(a)+ " feet.<br>");
-    // document.write(a + " feet = " +converterfeet(a)+ " mét");
-
-</script>
+<label>Foot</label>
+<input id="foot" type="number" oninput="footToMeter(this.value);" min="0">
+<br>
+<label>Meter</label>
+<input id="meter" type="number" oninput="meterToFoot(this.value);" min="0">
 </body>
+<script>
+    function footToMeter(x) {
+        x = parseFloat(x);
+        document.getElementById("meter").value = x * 0.305;
+    }
+    function meterToFoot(x) {
+        x = parseFloat(x);
+        document.getElementById("foot").value = x * 3.279;
+    }
+</script>
+<!--code phía dưới lỗi và ko được clean code-->
+<!--<body>-->
+<!--Nhập số <input id="dữ liệu" type="number" min="0">-->
+<!--<input type="button" onclick="converterfeet()" value="Đổi sang mét">-->
+<!--<input type="button" onclick="convertermeters()" value="Đổi sang feet">-->
+<!--<p id="Hiển thị"></p>-->
+<!--<script>-->
+<!--    function converterfeet(feet) {-->
+<!--        // let feet;-->
+<!--        let meet = 0.305*feet;-->
+<!--        return meet;-->
+<!--        document.getElementById("Hiển thị").innerHTML=meet ;-->
+<!--       // let feet = document.getElementById("feet");-->
+<!--       // let met = document.getElementById("meters");-->
+<!--       // met.value = 0.305*feet.value;-->
+<!--    }-->
+<!--    function convertermeters(meet) {-->
+<!--        // let meet;-->
+<!--        let feet = 3.279*meet;-->
+<!--        return feet;-->
+<!--        document.getElementById("Hiển thị").innerHTML=feet.value;-->
+<!--        // let feet = document.getElementById("feet");-->
+<!--        // let met = document.getElementById("meters");-->
+<!--        // feet.value = 3.279*met.value;-->
+<!--    }-->
+<!--    // let a = prompt("Nhập giá trị ");-->
+<!--    // document.write(a+ " mét = "+convertermeters(a)+ " feet.<br>");-->
+<!--    // document.write(a + " feet = " +converterfeet(a)+ " mét");-->
+<!--</script>-->
+<!--</body>-->
 </html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V is in the array</title>
+</head>
+<body>
+<script>
+    function checkIntegerV(z,x) {
+        for (let i = 0; i<z.length; i++){
+            if (x == z[i]){
+                alert('V is in the array...!');
+                break;
+            }else {
+                alert('V is not in the array ...!');
+                break;
+            }
+        }
+    }
+
+    let a = [1,2,3,4,5,6,7];
+    let s = prompt('Nhập số nguyên V: ');
+    checkIntegerV(a,s);
+</script>
+</body>
+</html>

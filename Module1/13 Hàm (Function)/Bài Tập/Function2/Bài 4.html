@@ -7,9 +7,15 @@
 <body>
 <script>
     let a = prompt('Nhập dữ liệu vào:');
-    document.write(checkCharacter(a));
+    // document.write(checkCharacter(a));
+    alert(checkCharacter(a));
     function checkCharacter(char) {
-
+        let kq = true;
+        if (isNaN(char)){
+            return kq= false;
+        }else {
+            return kq= true;
+        }
     }
 </script>
 </body>

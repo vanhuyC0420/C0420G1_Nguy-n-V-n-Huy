@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let namee = "HUY";
+    let name = "HUY";
     let idCard = "12345";
     let phoneNumber = "098765";
     let birthday = "1/1/1991";
@@ -20,40 +20,12 @@
     let typeRoom = "Vip";
     let quantityIncluded = 10;
     let totalPay;
-    
-    // namee = prompt("Nhập họ tên");
-    // idCard = prompt("Nhập số CMND/Căn Cước;");
-    // phoneNumber = prompt("Số điện thoại của bạn:");
-    // birthday = prompt("Nhập Ngày sinh: ");
-    // email = prompt("Nhập email: ");
-    // address = prompt("Nhập địa chỉ: ");
-    // gender = prompt("Giới tính: " + "\n" + "Nam" + "\n" + "Nữ" + "\n" + "Giới tính khác.");
-    // typeCustomer = prompt('Loại khách hàng' + "\n"+
-    // "1.Diamond" +"\n"+
-    // "2.Platium" + "\n"+
-    // "3.Gold" + "\n"+
-    // "4.Silver" + "\n"+
-    // "5.Member");
-    // discount = prompt("ĐƯợc giảm giá: ");
-    // rentDays = prompt("Số ngày thuê: ");
-    // typerService = prompt("Loại dịch vụ: " + "\n"+
-    // "Villa" + "\n"+
-    // "House" + "\n"+
-    // "Room");
-    // quantityIncluded = prompt("Nhập số lượng đi kèm: ");
-    // typeRoom = prompt("Loại phòng: " + "\n"+
-    // "1.VIP" + "\n"+
-    // "2.Business" + "\n"+
-    // "3.Normal");
-    // totalPay = 300*rentDays*(1-discount/100);
-
     let choose = parseInt(prompt("1.Hiển thị thông tin khách hàng:"+'\n'+
         "2.Chỉnh sửa thông tin khách hàng:"+'\n'+
         "3.Hiển thị giá sau khi được giảm giá."));
-
     switch (choose) {
         case 1:{// đang so sánh kiểu số: "1" or dùng parseInt(Float) trên prompt
-            alert("Tên: "+namee+'\n'+
+            alert("Tên: "+name+'\n'+
             "CMND "+idCard+ '\n'+
             "Ngày sinh" +birthday+ '\n'+
             "Số điện thoại: " +phoneNumber+ '\n'+
@@ -69,7 +41,7 @@
             break;
         }
         case 2:{
-            let chooseEdit = parseInt(prompt("1. Tên: "+namee+'\n'+
+            let chooseEdit = parseInt(prompt("1. Tên: "+name+'\n'+
                 "2. CMND "+idCard+ '\n'+
                 "3. Ngày sinh" +birthday+ '\n'+
                 "4. Số điện thoại: " +phoneNumber+ '\n'+
@@ -84,7 +56,7 @@
                 "13. Số lượng đi kèm: " +quantityIncluded));
             switch (chooseEdit) {
                 case 1:{
-                    namee = prompt("Nhập họ tên: ");
+                    name = prompt("Nhập họ tên: ");
                     break;
                 }
                 case 2:{
@@ -139,7 +111,7 @@
                     alert("Failed:");
                 }
             }
-            alert("Tên: "+namee+'\n'+
+            alert("Tên: "+name+'\n'+
                 "CMND "+idCard+ '\n'+
                 "Ngày sinh" +birthday+ '\n'+
                 "Số điện thoại: " +phoneNumber+ '\n'+
@@ -196,9 +168,6 @@
             }else if (typeCustomer === "Silver"){
                 temp += 2;
             }
-            // if (address==="Đà Nẵng"){
-            //
-            // }
             alert("Tổng tiền = " + (money * rentDays - temp));
             break;
         }

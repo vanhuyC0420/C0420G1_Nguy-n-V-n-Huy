@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C0420G1</title>
+</head>
+<body>
+<script>
+    let arrListCustomer=[];
+    function displayMainMenu() {
+        let choose = parseInt(prompt('1.Thêm khách hàng.' + '\n' +
+            '2.Hiển thị thông tin khách hàng' + '\n' +
+            '3.Sửa thông tin khách hàng.' + '\n'+
+            '4.Xoá khách hàng.' + '\n'+
+            '5.Thoát.'));
+        switch (choose) {
+            case 1:{
+                addNewCustomer();
+            }
+            case 2:{
+                displayInformationCusstomer();
+            }
+            case 3:{
+                editInformationCustomer();
+            }
+            case 4:{
+                deleteCustomer();
+            }
+            case 5:{
+                exit();
+                break;
+            }
+            default:{
+                alert('Bạn chọn chưa đúng, vui lòng chọn lại!');
+            }
+        }
+    }
+    function addNewCustomer(){
+        let inforCus = [];
+        let name = prompt("Nhập họ tên");
+        let idCard = prompt("Nhập số CMND/Căn Cước;");
+        let phoneNumber = prompt("Số điện thoại của bạn:");
+        let birthday = prompt("Nhập Ngày sinh: ");
+        let email = prompt("Nhập email: ");
+        let address = prompt("Nhập địa chỉ: ");
+        let gender = prompt("Giới tính: ");
+        let typeCustomer = prompt('Loại khách hàng');
+        let discount = prompt("ĐƯợc giảm giá: ");
+        let rentDays = prompt("Số ngày thuê: ");
+        let typerService = prompt("Loại dịch vụ: ");
+        let quantityIncluded = prompt("Nhập số lượng đi kèm: ");
+        let typeRoom = prompt("Loại phòng: ");
+        inforCus.push(name);
+        inforCus.push(idCard);
+        inforCus.push(phoneNumber);
+        inforCus.push(birthday);
+        inforCus.push(email);
+        inforCus.push(address);
+        inforCus.push(gender);
+        inforCus.push(typeCustomer);
+        inforCus.push(discount);
+        inforCus.push(rentDays);
+        inforCus.push(typerService);
+        inforCus.push(quantityIncluded);
+        inforCus.push(typeRoom);
+        arrListCustomer.push(inforCus);
+        alert('Bạn đã thêm khách hàng thành công. ');
+        displayMainMenu();
+    }
+    function displayInformationCusstomer(){
+        let tam = "";
+        for (let i =0;i<arrListCustomer.length;i++){
+            tam += i + '. Tên :' + arrListCustomer[i][0]+'\n';
+        }
+        let chooseDisplay = parseInt(prompt(tam));
+        alert("1. Tên: "+arrListCustomer[chooseDisplay][0]+'\n'+
+            "2. CMND "+arrListCustomer[chooseDisplay][1]+ '\n'+
+            "3. Ngày sinh" +arrListCustomer[chooseDisplay][2]+ '\n'+
+            "4. Số điện thoại: " +arrListCustomer[chooseDisplay][3]+ '\n'+
+            "5. Email: " +arrListCustomer[chooseDisplay][4]+ '\n'+
+            "6. Địa chỉ: " +arrListCustomer[chooseDisplay][5]+ '\n'+
+            "7. Giới tính: " +arrListCustomer[chooseDisplay][6]+ '\n'+
+            "8. Loại khách hàng: " +arrListCustomer[chooseDisplay][7]+ '\n'+
+            "9. Loại phòng: " +arrListCustomer[chooseDisplay][8]+ '\n'+
+            "10. Loại dịch vụ: " +arrListCustomer[chooseDisplay][9]+ '\n'+
+            "11. Giảm giá: " +arrListCustomer[chooseDisplay][10]+ '\n'+
+            "12. Số ngày thuê: " +arrListCustomer[chooseDisplay][11]+ '\n'+
+            "13. Số lượng đi kèm: " +arrListCustomer[chooseDisplay][12]);
+        displayMainMenu();
+    }
+    function editInformationCustomer() {
+        let tam = "";
+        for (let i =0;i<arrListCustomer.length;i++){
+            tam += i + '. Tên :' + arrListCustomer[i][0]+'\n';
+        }
+        let chooseDisplay = parseInt(prompt(tam));
+        let chooseEdit = parseInt(prompt("1. Tên: "+arrListCustomer[chooseDisplay][0]+'\n'+
+            "2. CMND "+arrListCustomer[chooseDisplay][1]+ '\n'+
+            "3. Ngày sinh" +arrListCustomer[chooseDisplay][2]+ '\n'+
+            "4. Số điện thoại: " +arrListCustomer[chooseDisplay][3]+ '\n'+
+            "5. Email: " +arrListCustomer[chooseDisplay][4]+ '\n'+
+            "6. Địa chỉ: " +arrListCustomer[chooseDisplay][5]+ '\n'+
+            "7. Giới tính: " +arrListCustomer[chooseDisplay][6]+ '\n'+
+            "8. Loại khách hàng: " +arrListCustomer[chooseDisplay][7]+ '\n'+
+            "9. Loại phòng: " +arrListCustomer[chooseDisplay][8]+ '\n'+
+            "10. Loại dịch vụ: " +arrListCustomer[chooseDisplay][9]+ '\n'+
+            "11. Giảm giá: " +arrListCustomer[chooseDisplay][10]+ '\n'+
+            "12. Số ngày thuê: " +arrListCustomer[chooseDisplay][11]+ '\n'+
+            "13. Số lượng đi kèm: " +arrListCustomer[chooseDisplay][12]));
+        switch (chooseEdit) {
+            case 1:{
+                arrListCustomer[chooseDisplay][0] = prompt('Nhập tên đúng: ');
+                break;
+            }
+            case 2:{
+                arrListCustomer[chooseDisplay][1] = prompt('Nhập sô CMND/Căn cước đung: ');
+                break;
+            }
+            case 3:{
+                arrListCustomer[chooseDisplay][2] = prompt('Nhập ngày sinh đúng: ');
+                break;
+            }
+            case 4:{
+                arrListCustomer[chooseDisplay][3] = prompt('Nhập SĐT đúng: ');
+                break;
+            }
+            case 5:{
+                arrListCustomer[chooseDisplay][4] = prompt('Nhập email đúng: ');
+                break;
+            }
+            case 6:{
+                arrListCustomer[chooseDisplay][5] = prompt('Nhập địa chỉ đúng: ');
+                break;
+            }
+            case 7:{
+                arrListCustomer[chooseDisplay][6] = prompt('Nhập lại giới tính: ');
+                break;
+            }
+            case 8:{
+                arrListCustomer[chooseDisplay][7] = prompt('Nhạp lại loại khách hàng: ');
+                break;
+            }
+            case 9:{
+                arrListCustomer[chooseDisplay][8] = prompt('Nhập loại phòng: ');
+                break;
+            }
+            case 10:{
+                arrListCustomer[chooseDisplay][9] = prompt('Nhập dịch vụ: ');
+                break;
+            }
+            case 11:{
+                arrListCustomer[chooseDisplay][10] = prompt('Nhập lại mã giảm giá: ');
+                break;
+            }
+            case 12:{
+                arrListCustomer[chooseDisplay][11] = prompt('Nhập lại số ngày thuê: ');
+                break
+            }
+            case 13:{
+                arrListCustomer[chooseDisplay][12] = prompt('Nhập số lượng đi cùng: ');
+                break;
+            }
+            default:
+                confirm('Bạn chọn tào lao rồi kìa >_< ');
+        }
+        displayMainMenu();
+    }
+    function deleteCustomer() {
+
+        confirm('Xoá thiệt à?');
+        displayMainMenu();
+    }
+    function exit() {
+        confirm('Chắc chưa????');
+    }
+    displayMainMenu();
+</script>
+</body>
+</html>

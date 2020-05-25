@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra kí tự</title>
+</head>
+<body>
+<script>
+    let arr = prompt('Nhập chuỗi vào nhé bạn: ');
+    let b = arr.split(',');
+    let c = prompt('Nhập kí tự bất kì ');
+    checkChar(b,c);
+    function checkChar(z,y) {
+        let count = 0;
+        for (let i =0;i < z.length; i++){
+            if (y == z[i]){
+                count ++;
+            }
+        }
+        if (count>0){
+            alert('Kí tự ' + y + ' xuất hiền trong mảng: ' +count + ' lần');
+        }else {
+            alert(-1);
+        }
+    }
+</script>
+</body>
+</html>
