@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt('Nhập vào 1 dãy số');
+    let arrNum = num.split('');
+    let total = 0;
+    let product = 1;
+    for (let i=0;i<arrNum.length;i++){
+        total+= arrNum[i]*1;
+        product*=arrNum[i];
+        // if (arrNum[i]==0){
+        //     product=0;
+        // }else {
+        //     product*=arrNum[i]*1;
+        // }
+
+    }
+    document.write('Tích các chữ số = '+product+'<br>');
+    document.write('Tổng các chữ số = '+total);
+
+</script>
+</body>
+</html>

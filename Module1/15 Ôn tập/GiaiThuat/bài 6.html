@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập 6 </title>
+</head>
+<body>
+<script>
+    // 6.	Tính n!!	=	1*3*5*…..*n(n lẽ)
+    //                  =	2*4*6*….*n(n chẵn)
+
+    let n = prompt('Nhập 1 số bất kì ')*1.0;
+    let gt=1;
+    if (n%2 == 0){
+        for (let i=2;i<=n;i+=2){
+            gt*=i;
+        }
+    }else {
+        for (let i=3;i<=n;i+=2) {
+            gt *= i;
+        }
+    }
+
+    document.write(gt);
+    // document.write('giai thừa số lẽ: '+gtle+"<br>");
+    // document.write('giai thừa số chẵn: '+gtchan);
+
+</script>
+</body>
+</html>

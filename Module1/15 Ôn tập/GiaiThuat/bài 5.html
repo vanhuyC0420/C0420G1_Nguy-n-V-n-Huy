@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập 5</title>
+</head>
+<body>
+<script>
+    // 5.	Viết chương trình tính  :
+    // S=1+1/3!+1/5!+…..+1/(2n-1)!
+        let n= prompt('Nhập vào số bất kì ')*1.0;
+        let sum = 0;
+        function giaithua(x) {
+            let gt = 1;
+            for (let i=1;i<=x;i++){
+                gt*=i;
+            }
+            return gt;
+        }
+        for (let i=1;i<=n;i++){
+            sum+=1/giaithua(2*i-1);
+        }
+        document.write(sum.toFixed(3));
+</script>
+</body>
+</html>
