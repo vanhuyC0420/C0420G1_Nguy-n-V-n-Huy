@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai10</title>
+</head>
+<body>
+<h1>Quản lý nhân viên</h1>
+<table>
+    <tr>
+        <td>TIÊU ĐỀ</td>
+        <td>NỘI DUNG</td>
+    </tr>
+    <tr>
+        <td>Tên nhân viên :</td>
+        <td><input id="name" type="text"></td>
+    </tr>
+    <tr>
+        <td>Số ngày làm việc :</td>
+        <td><input id="date" type="number"></td>
+    </tr>
+    <tr>
+        <td>
+            <button id="add" onclick="addNhanvien()">Add</button>
+        </td>
+    </tr>
+</table>
+<p id="result"></p>
+Tổng lương : <p id="result1" style="display: inline"></p>
+<script>
+    let listNhanvien = new Array();
+    class nhanvien {
+        constructor(name, ngaylamviec) {
+            this.name = name;
+            this.ngaylamviec = ngaylamviec;
+        }
+        setName(name) {
+            this.name = name;
+        }
+        getName() {
+            return this.name;
+        }
+        setNgaylamviec(ngaylamviec) {
+            this.ngaylamviec = ngaylamviec;
+        }
+        getNgaylamviec() {
+            return this.ngaylamviec;
+        }
+        luong() {
+            let luong = 200000;
+            luong = luong * this.getNgaylamviec();
+            return luong;
+        }
+    }
+    function addNhanvien() {
+        let name = document.getElementById("name").value;
+        let ngaylamviec = document.getElementById("date").value;
+        let Nhanvien = new nhanvien(name, ngaylamviec);
+        listNhanvien.push(Nhanvien);
+        dislayNhanvien();
+    }
+    function dislayNhanvien() {
+        let display = '<table border="1">' +
+            '<tr>' +
+            '<td>Stt</td>' +
+            '<td>Họ và tên</td>' +
+            '<td>Ngày Công</td>' +
+            '</tr>'
+        for (let i = 0; i < listNhanvien.length; i++) {
+            display += '<tr>' +
+                '<td> ' + (i + 1) + '</td>' +
+                '<td>' + listNhanvien[i].name + '</td>' +
+                '<td>' + listNhanvien[i].ngaylamviec + '</td>' +
+                '<td><button onclick="showLuong(' + i + ')">lương nhan vien</button></td>' +
+                '</tr>'
+        }
+        display += '</table>';
+        document.getElementById("result").innerHTML = display;
+    }
+    function showLuong(index) {
+        let show = listNhanvien[index].luong();
+        document.getElementById("result1").innerHTML = show;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<script>
+    let num = prompt('Nhập số nguyên dương:');
+    let arr = num.split('');
+    // function checkInt() {
+        if (num<6){
+            alert('Bạn nhập chưa đúng. ');
+            num = prompt('Bạn nhập số nguyên dương lớn hơn 6 nhé');
+        }
+    // }
+    // checkInt();
+    for (let i;arr.length<num;){
+        i = prompt('Nhập phần tử vào mảng');
+        arr.push(i);
+        // arr.sort((a,b) => {
+        //     return a > b;
+        // });
+        // alert(arr);
+        // if (arr[i]){
+        // }
+    }
+    // alert(arr.sort());
+    alert(arr.sort((a,b)=>{
+        return a > b;
+    }));
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xử lý mảng thành chuỗi bài 10 giải thuật</title>
+</head>
+<body>
+<script>
+    function xulychuoi(str) {
+        let temp="";
+        for (let i = 0; i <str.length ; i++) {
+            if(str.charAt(i)===" " && str.charAt(i+1)===" ")
+            {
+                continue;
+            }
+            if(str.charAt(i-1)===" "){
+                temp+=str.charAt(i);
+                continue;
+            }
+            temp+=str.charAt(i);
+        }
+        return str=temp.trim();
+    }
+    function inxuongdong(arr) {
+        for(let i=0;i<arr.length;i++){
+            document.write(arr[i]+"<br>")
+        }
+    }
+    function demsotu(str) {
+        let count=1;
+        for (let i = 0; i <str.length ; i++) {
+            if((str.charAt(i)!==" ")&&(str.charAt(i+1)===" ")){
+                count++;
+            }
+        }
+        return count;
+    }
+    let string=prompt("nhap vao chuoi");
+    let newstring=xulychuoi(string);
+    let newarr=newstring.split(" ");
+    let countx=demsotu(newstring);
+    inxuongdong(newarr);
+    alert(countx);
+    let  newnew=newarr.map((value, index, array) => {
+
+    })
+</script>
+</body>
+</html>
