@@ -5,6 +5,7 @@ public class KhaiBaoBien {
         int a = 10;
         float f = 20.5f;
         double d = 20.5;
+        long l = 12L;
         boolean b = false;
         char c = 'a';
         String s = "Quảng Bình";
@@ -13,6 +14,7 @@ public class KhaiBaoBien {
         System.out.println("d = " + d);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
-        System.out.print("s = " + s);
+        System.out.println("s = " + s);
+        System.out.print("l = " + l);
     }
 }
