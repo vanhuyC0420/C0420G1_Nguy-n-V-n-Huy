@@ -1,4 +1,4 @@
-package Array_Method.ThucHanh;
+package Array_Method.TimGTLNofMang;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
