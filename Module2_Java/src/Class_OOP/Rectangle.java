@@ -1,7 +1,5 @@
 package Class_OOP;
 
-import javafx.scene.transform.Scale;
-
 import java.util.Scanner;
 
 public class Rectangle {
