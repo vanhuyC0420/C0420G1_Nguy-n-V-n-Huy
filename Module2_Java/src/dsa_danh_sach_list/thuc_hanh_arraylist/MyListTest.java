@@ -1,4 +1,4 @@
-package dsa_danh_sach.thuc_hanh;
+package dsa_danh_sach_list.thuc_hanh_arraylist;
 
 public class MyListTest {
     public static void main(String[] args) {
@@ -11,6 +11,8 @@ public class MyListTest {
         System.out.println("element 1: "+listInt.get(0));
         System.out.println("element 2: "+listInt.get(1));
         System.out.println("element 3: "+listInt.get(2));
+        System.out.println("element 4: "+listInt.get(3));
+//        for (int i = 0;i<listIn)
 /**
  * 2 trường hợp dưới bị lỗi do nằm ngoài phần tử của mảng và báo lỗi
  * Exception và đã viết trình báo lỗi ở hàm get(int i) bên lớp Mylist:
