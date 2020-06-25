@@ -19,7 +19,7 @@ public class TestMap {
 
         /**Tạo Treemap để lưu key theo thứ tự giảm dần*/
         Map<String, Integer> treeMap = new TreeMap<>(hashMap);
-        System.out.println("Display entries in ascending order of key");
+        System.out.println("Display entries in ascending order of key theo treemap");
         System.out.println(treeMap);
 
         /**Tạo LinkedHashMap lưu danh sách sinh viên và hiển thị dữ liệu*/
@@ -28,7 +28,7 @@ public class TestMap {
         linkedHashMap.put("thịnh",18);
         linkedHashMap.put("tường",20);
         linkedHashMap.put("cook",29);
-        System.out.println("\nThe age for "+"Hiếu is "+linkedHashMap.get("Hiếu"));
+        System.out.println("\nThe age for "+"hiếu is "+linkedHashMap.get("hiếu"));
         System.out.println(linkedHashMap);
     }
 }
